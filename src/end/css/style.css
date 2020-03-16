@@ -185,11 +185,19 @@ img {
   margin-bottom: 2em;
 }
 
-#flex-about .button {
+.button {
   margin: auto;
   width: fit-content;
   font-size: 18px;
   padding: 8px 46px;
+  color: white;
   background-color: #ff9190;
   border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.button:hover {
+  opacity: 0.7;
+  transform: scale(0.97);
 }
